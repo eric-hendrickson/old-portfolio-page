@@ -54,7 +54,7 @@ hr.star-light {
   border-color: white;
 }
 hr.star-light:after {
-  background-color: #18BC9C;
+  background-color: #7FC3EE;
   color: white;
 }
 hr.star-primary {
@@ -69,7 +69,10 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: #18BC9C;
+  /*background: #18BC9C;*/
+  background: black url(https://cdn.pixabay.com/photo/2015/08/07/18/01/san-diego-879623_960_720.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   color: white;
 }
 header .container {
@@ -79,11 +82,11 @@ header .container {
 header img {
   display: block;
   margin: 0 auto 20px;
+  max-height: 300px;
 }
 header .intro-text .name {
   display: block;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
   font-weight: 700;
   font-size: 2em;
 }
@@ -186,7 +189,7 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #18BC9C;
+  background: #7FC3EE;
   color: white;
 }
 @media (max-width: 767px) {
