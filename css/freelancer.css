@@ -70,7 +70,7 @@ hr.star-primary:after {
 header {
   text-align: center;
   /*background: #18BC9C;*/
-  background: black url(https://c2.staticflickr.com/2/1179/1069260173_c54e75249b_b.jpg);
+  background: black url("../img/sandiego.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
@@ -251,8 +251,8 @@ section.success {
 .floating-label-form-group {
   position: relative;
   margin-bottom: 0;
-  padding-bottom: 0.5em;
-  border-bottom: 1px solid #eeeeee;
+  /*padding-bottom: 0.5em;*/
+  /*border-bottom: 1px solid #eeeeee;*/
 }
 .floating-label-form-group input,
 .floating-label-form-group textarea {
@@ -293,11 +293,11 @@ section.success {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #18BC9C;
+  color: yellow;
 }
-form .row:first-child .floating-label-form-group {
+/*form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
-}
+}*/
 footer {
   color: white;
 }
