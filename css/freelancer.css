@@ -200,6 +200,10 @@ section.success {
     padding-top: 75px;
   }
 }
+#portfolio h4 p {
+  text-align: center;
+  color: white;
+}
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
@@ -506,4 +510,7 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .modal-backdrop {
   opacity: 0;
   display: none;
+}
+#ghostinfo {
+  max-height: 650px;
 }
